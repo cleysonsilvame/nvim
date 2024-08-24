@@ -11,6 +11,15 @@
         "enabled": true
       }
     }
+  },
+  "lspconfig": {
+    "lua_ls": {
+      "Lua": {
+        "format.enable": true,
+        "diagnostics.disable": [
+          "missing-fields"
+        ]
+      }
+    }
   }
-
- }
+}
