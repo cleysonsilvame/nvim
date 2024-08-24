@@ -13,19 +13,17 @@ return {
             once = true,
 
             callback = function()
+              -- open tree
               vim.api.nvim_feedkeys(" o", 't', true)
+
+              -- unhides files
+              vim.api.nvim_feedkeys("H", 't', true)
+
+              -- back to buffer
               vim.api.nvim_feedkeys(" o", 't', true)
             end
           },
         },
-        --
-        -- autohome = {
-        --   {
-        --     event = "VimEnter",
-        --     pattern = "*.*",
-        --     command = "lua OpenHome()",
-        --   },
-        -- },
       }
     },
   },
