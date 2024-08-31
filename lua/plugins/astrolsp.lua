@@ -4,6 +4,7 @@ return {
   ---@type AstroLSPOpts
   opts = {
     formatting = {
+      format_on_save = false,
       disabled = {
         "tsserver"
       }
