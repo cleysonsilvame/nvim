@@ -1,6 +1,8 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  tag = "stable",
+  pin = true,
 
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
