@@ -5,7 +5,9 @@ local common_imports = {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.sql" },
-  { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.lua" },
   -- { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
 }
@@ -23,4 +25,3 @@ return {
   -- Mesclar imports dependendo do ambiente
   unpack(vim.g.vscode and vscode_imports or common_imports),
 }
-
