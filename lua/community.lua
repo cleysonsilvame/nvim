@@ -22,7 +22,6 @@ local vscode_imports = {
 return {
   "AstroNvim/astrocommunity",
   tag = "stable",
-  pin = true,
 
   -- Mesclar imports dependendo do ambiente
   unpack(vim.g.vscode and vscode_imports or common_imports),
