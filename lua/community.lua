@@ -10,6 +10,8 @@ local common_imports = {
   { import = "astrocommunity.pack.lua" },
   -- { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.cpp" },
 }
 
 local vscode_imports = {
